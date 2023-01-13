@@ -10,6 +10,8 @@ $theme-colors: (
     "dark": #000000
 );
 
+@import "node_modules/bootstrap/scss/bootstrap";
+
 #carousel-front {
   background: url(/img/rdt-mastfade3.jpg) no-repeat center center fixed;
   background-color: rgba(43, 40, 40, .6);
