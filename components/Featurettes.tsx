@@ -19,7 +19,6 @@ export default function Featurettes({styles}:Props) {
   return (
     <>
       <section className={`body-front ${styles}`}>
-        {console.log(styles)}
         <div className="container flex flex-wrap items-center py-24 mx-auto text-zinc-900 dark:text-white">
           {/* Speaking & Engagements Feature */}
           <motion.div
@@ -176,7 +175,7 @@ export default function Featurettes({styles}:Props) {
                   className="inline-flex items-center text-purple-500"
                   href="https://youtube.com/revdavethompson"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <button
                     data-modal-target="top-center-modal"
